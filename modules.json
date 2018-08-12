@@ -1,0 +1,91 @@
+[
+  {
+    "id": "unifiedPatchingFramework",
+    "name": "Unified Patching Framework",
+    "author": "Mator",
+    "type": ["core", "api"],
+    "description": "A zEdit module which provides a framework for dynamic patch generation, similar to SkyProc/SUM.",
+    "repository": "https://github.com/z-edit/zedit-unified-patching-framework/"
+  },
+  {
+    "id": "hishyNoDragonLods",
+    "name": "No Dragon LODs",
+    "author": "Hishy",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher that removes dragon lods by finding all races that use the dragon skeleton.",
+    "repository": "https://github.com/hishutup/hishy-no-dragon-lods",
+    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13541"
+  },
+  {
+    "id": "hishyNpcEnchantFix",
+    "name": "NPC Enchant Fix",
+    "author": "Hishy",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A simple port of ASIS's NPC Enchant Fix.",
+    "repository": "https://github.com/hishutup/hishy-npc-enchant-fix",
+    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13543"
+  },
+  {
+    "id": "hishyCellEncounters",
+    "name": "Cell Encounter Level in Name",
+    "author": "Hishy",
+    "type": "patcher",
+    "description": "A patcher that puts encounter zone levels into cell names.",
+    "repository": "https://github.com/hishutup/hishy-cell-encounter-level-in-name",
+    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13542"
+  },
+  {
+    "id": "hishyKhajiitEarsShow",
+    "name": "Khajiit Ears Show Patcher",
+    "author": "Hishy",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher which makes it so Khajiit ears show through headwear.",
+    "repository": "https://github.com/hishutup/hishy-khajiit-ears-show",
+    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13544"
+  },
+  {
+    "id": "loadScreenRemover",
+    "name": "Load Screen Remover",
+    "author": "Qudix",
+    "type": "patcher",
+    "description": "A patcher which stops 3D objects and lore text from showing up during loading screens.  The lore text can be re-enabled through the patcher's settings.",
+    "repository": "https://github.com/Qudix/loadScreenRemover"
+  },
+  {
+    "id": "oppositeAnimationDisabler",
+    "name": "Opposite Animation Disabler",
+    "author": "Qudix",
+    "type": "patcher",
+    "description": "A patcher which disables the Use Opposite Animations flag on all NPCs, forcing them to use the correct animations for their gender.",
+    "repository": "https://github.com/Qudix/oppositeAnimationDisabler"
+  },
+  {
+    "id": "dualSheathRedux",
+    "name": "Dual Sheath Redux Patcher",
+    "author": "Qudix",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher that makes it so sheathed left-hand weapons are visible.",
+    "repository": "https://github.com/Qudix/dualSheathRedux"
+  },
+  {
+    "id": "reproccerReborn",
+    "name": "Reproccer Reborn",
+    "author": "jdsmith2816",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher which makes armor, weapons, ammunition, and potions added by mods compatible with T3nd0's Skyrim Redone.",
+    "repository": "https://github.com/jdsmith2816/reproccer-reborn"
+  },
+  {
+    "id": "reproccerXmlConverter",
+    "name": "Reproccer XML Converter",
+    "author": "Mator",
+    "type": "tool",
+    "description": "Converts SkyRe Reproccer XML files to the JSON format used by Reproccer Reborn.",
+    "repository": "https://github.com/matortheeternal/zedit-reproccer-xml-converter"
+  }
+]
