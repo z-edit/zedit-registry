@@ -5,7 +5,9 @@
     "author": "Mator",
     "type": ["core", "api"],
     "description": "A zEdit module which provides a framework for dynamic patch generation, similar to SkyProc/SUM.",
-    "repository": "https://github.com/z-edit/zedit-unified-patching-framework/"
+    "links": {
+      "github": "https://github.com/z-edit/zedit-unified-patching-framework/"
+    }
   },
   {
     "id": "hishyNoDragonLods",
@@ -14,8 +16,10 @@
     "type": "patcher",
     "games": ["TES5", "SSE"],
     "description": "A patcher that removes dragon lods by finding all races that use the dragon skeleton.",
-    "repository": "https://github.com/hishutup/hishy-no-dragon-lods",
-    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13541"
+    "links": {
+      "github": "https://github.com/hishutup/hishy-no-dragon-lods",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/13541"
+    }
   },
   {
     "id": "hishyNpcEnchantFix",
@@ -24,8 +28,10 @@
     "type": "patcher",
     "games": ["TES5", "SSE"],
     "description": "A simple port of ASIS's NPC Enchant Fix.",
-    "repository": "https://github.com/hishutup/hishy-npc-enchant-fix",
-    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13543"
+    "links": {
+      "github": "https://github.com/z-edit/hishy-npc-enchant-fix",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/13543"
+    }
   },
   {
     "id": "hishyCellEncounters",
@@ -33,8 +39,10 @@
     "author": "Hishy",
     "type": "patcher",
     "description": "A patcher that puts encounter zone levels into cell names.",
-    "repository": "https://github.com/hishutup/hishy-cell-encounter-level-in-name",
-    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13542"
+    "links": {
+      "github": "https://github.com/z-edit/hishy-cell-encounter-level-in-name",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/13542"
+    }
   },
   {
     "id": "hishyKhajiitEarsShow",
@@ -43,8 +51,10 @@
     "type": "patcher",
     "games": ["TES5", "SSE"],
     "description": "A patcher which makes it so Khajiit ears show through headwear.",
-    "repository": "https://github.com/hishutup/hishy-khajiit-ears-show",
-    "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/13544"
+    "links": {
+      "github": "https://github.com/hishutup/hishy-khajiit-ears-show",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/13544"
+    }
   },
   {
     "id": "loadScreenRemover",
@@ -52,7 +62,10 @@
     "author": "Qudix",
     "type": "patcher",
     "description": "A patcher which stops 3D objects and lore text from showing up during loading screens.  The lore text can be re-enabled through the patcher's settings.",
-    "repository": "https://github.com/Qudix/loadScreenRemover"
+    "links": {
+      "github": "https://github.com/Qudix/loadScreenRemover",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/18279"
+    }
   },
   {
     "id": "oppositeAnimationDisabler",
@@ -60,7 +73,10 @@
     "author": "Qudix",
     "type": "patcher",
     "description": "A patcher which disables the Use Opposite Animations flag on all NPCs, forcing them to use the correct animations for their gender.",
-    "repository": "https://github.com/Qudix/oppositeAnimationDisabler"
+    "links": {
+      "github": "https://github.com/Qudix/oppositeAnimationDisabler",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/18281"
+    }
   },
   {
     "id": "dualSheathRedux",
@@ -69,7 +85,9 @@
     "type": "patcher",
     "games": ["TES5", "SSE"],
     "description": "A patcher that makes it so sheathed left-hand weapons are visible.",
-    "repository": "https://github.com/Qudix/dualSheathRedux"
+    "links": {
+      "github": "https://github.com/Qudix/dualSheathRedux"
+    }
   },
   {
     "id": "reproccerReborn",
@@ -78,7 +96,10 @@
     "type": "patcher",
     "games": ["TES5", "SSE"],
     "description": "A patcher which makes armor, weapons, ammunition, and potions added by mods compatible with T3nd0's Skyrim Redone.",
-    "repository": "https://github.com/jdsmith2816/reproccer-reborn"
+    "links": {
+      "github": "https://github.com/jdsmith2816/reproccer-reborn",
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/17913"
+    }
   },
   {
     "id": "reproccerXmlConverter",
@@ -86,6 +107,440 @@
     "author": "Mator",
     "type": "tool",
     "description": "Converts SkyRe Reproccer XML files to the JSON format used by Reproccer Reborn.",
-    "repository": "https://github.com/matortheeternal/zedit-reproccer-xml-converter"
+    "links": {
+      "github": "https://github.com/matortheeternal/zedit-reproccer-xml-converter"
+    }
+  },
+  {
+    "id": "zedit-skyrim-keyword-helpers",
+    "name": "Skyrim Keyword Helpers",
+    "author": "Mator",
+    "type": "api",
+    "games": ["TES5", "SSE"],
+    "links": {
+      "github": "https://github.com/z-edit/zedit-skyrim-keyword-helpers"
+    }
+  },
+  {
+    "id": "skyrimMaterialPatcher",
+    "name": "Skyrim Material Patcher",
+    "author": "Mator",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher to apply consistent material keywords to Skyrim armors and weapons.",
+    "links": {
+      "github": "https://github.com/z-edit/zedit-skyrim-material-patcher"
+    }
+  },
+  {
+    "id": "miniNoEnchRestrictions",
+    "name": "Enchantment Restriction Remover",
+    "author": "minizbot2012",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A temporary enchantment restriction remover until the skse64 plugin can be written; for zEdit.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/17370"
+    }
+  },
+  {
+    "id": "teo",
+    "name": "True Equipment Overhaul",
+    "author": "DanielUA",
+    "type": "patcher",
+    "games": ["TES5","SSE"],
+    "description": "New and reworked armor sets, medium armors, immersive redistribution of items, and more.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/91693",
+      "nexus-2": "https://www.nexusmods.com/skyrimspecialedition/mods/18157"
+    }
+  },
+  {
+    "id": "tre",
+    "name": "True Renaissance Economy",
+    "author": "DanielUA",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Renaissance-style economy overhaul for Skyrim.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/30510"
+    }
+  },
+  {
+    "id": "tus",
+    "name": "True Unleveled Skyrim",
+    "author": "DanielUA",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A simple, modular, compatible-with-everything solution for those who want to play in an unleveled world.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/18342"
+    }
+  },
+  {
+    "id": "hunterbornCreaturePatcher",
+    "name": "Hunterborn Creature Patcher",
+    "author": "Hazado",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "zEdit module for adding Hunterborn compatibility with mod-added creatures.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/17993"
+    }
+  },
+  {
+    "id": "KnowYourEnemyPatcher",
+    "name": "Know Your Enemy Patcher",
+    "author": "tjhm4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Uses a trait system to change resistances and weaknesses of creatures to magic, physical damage, poison, and disease.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/13807"
+    }
+  },
+  {
+    "id": "KnowYourArmorPatcher",
+    "name": "Know Your Armor Patcher",
+    "author": "tjhm4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Uses a trait system to change resistances and weaknesses of armors to magic, physical damage, poison, and disease.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/13807"
+    }
+  },
+  {
+    "id": "praAutoDoorsIfier",
+    "name": "AutoDoors-Ifier",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Adds compatibility for AutoDoors. Can either process all or only constructible doors.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "praAwkcrIfier",
+    "name": "AwkcrIfier",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Moves recipes to AWKCR benches. Requires Item Type Service >= 0.1.1",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "praHorizonifier",
+    "name": "Horizonifier",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Rebalances some things for Horizon, moves some recipes to Horizon workbenches. Requires Horizon >= 1.7",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "itemTypeService",
+    "name": "ItemTyper",
+    "author": "pra",
+    "type": "api",
+    "games": ["FO4"],
+    "description": "Item Type Service",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "makeItemsWeightless",
+    "name": "MakeItemsWeightless",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Makes items weightless. Types to process can be configured.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "makeModsScrappable",
+    "name": "MakeModsScrappable",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Adds scrap components to loose object modifications.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "praTagifier",
+    "name": "Tagifier",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Tagifier module. Requires ItemTypeService >= 1.2.0. Compatible with Horizon >= 1.6.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "praOwmIfier",
+    "name": "WorkbenchOrganizer",
+    "author": "pra",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "zEdit patcher for Organized Workbench Menu. Requires OWM ESL version >= 1.1.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/33858"
+    }
+  },
+  {
+    "id": "SORT",
+    "name": "Scripted Overrides that Rename Things (SORT)",
+    "author": "EQLIBRIIM",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A sorting mod to soothe your sorting needs! ",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/87820"
+    }
+  },
+  {
+    "id": "randomizedBirthstonesPatch",
+    "name": "Randomized Birthstones",
+    "author": "trueshot",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Randomizes the placement of birthstones throughout Skyrim.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/23838"
+    }
+  },
+  {
+    "id": "mct",
+    "name": "Engarde",
+    "author": "tudoru",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Fixing Skyrim's melee combat one tweak at a time.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/97404"
+    }
+  },
+  {
+    "id": "experiencePatcher",
+    "name": "Experience Mod Patcher",
+    "author": "mtreis86",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Adds compatibility to Experience so the kills function will work on all NPCs.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/23589"
+    }
+  },
+  {
+    "id": "enbLightPatcher",
+    "name": "ENB Light Patcher",
+    "author": "jdsmith2816 & 4109",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Patches light sources for use with the ENB Light mod.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/22574"
+    }
+  },
+  {
+    "id": "keysHaveWeight",
+    "name": "Keys Have Weight",
+    "author": "thetrader",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Adds weight to keys.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/95168"
+    }
+  },
+  {
+    "id": "falloutGeneticsPatcher",
+    "name": "Fallout Genetics - everyone is beautiful",
+    "author": "User_17916404",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "You can now add all your custom hairstyles, eyes to everyone throughout the wasteland.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/35459"
+    }
+  },
+  {
+    "id": "noDistantLODforNPCs",
+    "name": "No Distant LOD for NPCs",
+    "author": "thetrader",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Removes distant LOD from NPCs.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/95175"
+    }
+  },
+  {
+    "id": "zeditAnimatedArmoryAnimationPatcher",
+    "name": "Animated Armory Animation Patcher",
+    "author": "darkphoenixff4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Add the keywords to weapons so they can take advantage of the spear animations in Animated Armory.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/25969"
+    }
+  },
+  {
+    "id": "saveYourFinger",
+    "name": "Save Your Finger",
+    "author": "mrudat",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Makes all weapons (vanilla and mod added) continuously attack so long as the attack button is held.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/38781"
+    }
+  },
+  {
+    "id": "noLoweredSuppressorAndBayonetRange",
+    "name": "No Lowered Suppressor and Bayonet Range",
+    "author": "mrudat",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Removes the range penalties for Suppressors, Muzzle Brakes, Recoil Compensators and Bayonets.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/38817"
+    }
+  },
+  {
+    "id": "noLoweredAutomaticWeaponDamage",
+    "name": "No Lowered Automatic Weapon Damage",
+    "author": "mrudat",
+    "type": "patcher",
+    "games": ["FO4"],
+    "description": "Removes the damage and range (damage dropoff) penalties for automatic weapon mods.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/fallout4/mods/38805"
+    }
+  },
+  {
+    "id": "NPCHealthRescaled",
+    "name": "NPC Stat Rescaler",
+    "author": "tjhm4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher that gives the user control over NPC and player stats, including health, magicka, stamina, regeneration rates, carry weight and combat penalties.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/24254"
+    }
+  },
+  {
+    "id": "ChallengingSpellLearningPatcher",
+    "name": "Challenging Spell Learning Patcher",
+    "author": "tjhm4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Turns spell learning into a 10 second magical trial with trial difficulty proportional to the cost of the spell. Pass the trial and you learn the spell. Fail and you suffer the consequences.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/20521"
+    }
+  },
+  {
+    "id": "XPEditor",
+    "name": "XP Editor",
+    "author": "tjhm4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "A patcher that lets you modify how much skill XP you gain from using each skill, and how much is needed to advance to the next level.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/24356"
+    }
+  },
+  {
+    "id": "LimitedPerksPatcher",
+    "name": "Limited Perk Trees",
+    "author": "Griffin III",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Restricts how many perk trees you can put perks into, while letting you continue to level the locked trees.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/95540"
+    }
+  },
+  {
+    "id": "PickYourPoisonPatcher",
+    "name": "Pick Your Poison",
+    "author": "tjhm4",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Gives the player a series of books that tell you what ingredients you need for a given alchemical effect and where specific ingredients can be found.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrim/mods/96473"
+    }
+  },
+  {
+    "id": "speedAndReachFix",
+    "name": "Speed and Reach Fixes",
+    "author": "GodlySandwich",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Changes the speed and reach of every weapon in a load order based on keywords.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/29847"
+    }
+  },
+  {
+    "id": "zedit-potions-weights",
+    "name": "Potions weight recalculator",
+    "author": "Bystander",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Divides the weight of every potion and poison in the game by 5.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/23254"
+    }
+  },
+  {
+    "id": "zedit-spell-absorb-fix",
+    "name": "Conjuration spells magicka absorb fix",
+    "author": "Bystander",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Adds the \"no absorb\" flag to summoning spells that are missing it.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/23254",
+      "github": "https://github.com/mangomango/zedit-spell-absorb-fix"
+    }
+  },
+  {
+    "id": "zedit-water-damage",
+    "name": "Water damage fix",
+    "author": "Bystander",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Puts \"causes damage\" flags on every water type in the game, as is required by iNeed, RND, and other mods.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/23254",
+      "github": "https://github.com/mangomango/zedit-water-damage"
+    }
+  },
+  {
+    "id": "zedit-visual-transfer",
+    "name": "Visual Transfer",
+    "author": "Bystander",
+    "type": "patcher",
+    "games": ["TES5", "SSE"],
+    "description": "Fixes the gray face bug on NPCs by transfering NPC's visual attributes from specified plugins to the end of your load order.",
+    "links": {
+      "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/23254",
+      "github": "https://github.com/mangomango/zedit-visual-transfer"
+    }
   }
 ]
