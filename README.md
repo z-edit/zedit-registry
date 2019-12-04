@@ -41,14 +41,14 @@ The unique identifier for your module or theme.  For modules this should be the 
 
 The name of the module or theme.  This does not need to be unqiue.
 
-### `type`
+### `types`
 
-**For module entries only.** One value or an array multiple values from this list:
+**For module entries only.** Array of one or more values from this list:
 
-- `"api"` - For modules which provide an API to be consumed by other modules or user scripts.
-- `"tool""` - For modules which provide a tool or toolset to be used within zEdit.
-- `"patcher""` - For modules which generate dynamic patch plugins (usually through UPF).
-- `"appmode"` - For modules which provide a full-fledged application mode.
+- `"api"` - Modules which provide one or more APIs to be consumed by other modules or user scripts.
+- `"tool""` - Modules which provide a tool or toolset to be used within an existing application mode.
+- `"patcher""` - Modules which generate dynamic patch plugins (usually through UPF).
+- `"appmode"` - Modules which provide an entire application mode.
 
 ### `games`
 
@@ -65,10 +65,10 @@ The name of the module or theme.  This does not need to be unqiue.
 
 A short plaintext description for your module or theme.
 
-### `repository`
+### `links`
 
-**Optional.** The full URL of the GitHub repository for your module or theme.  If this property is omitted users browsing the registry won't be able to install or see the current version of your module/theme when browsing the registry.
+Object containing links where the module can be downloaded.  The following keys are currently supported:
 
-### `homepage`
-
-**Optional.** The URL of the home page for your module or theme.  The Nexus Mods mod page, for example.  This property is required if the `repository` property is omitted.
+- `"github"` - GitHub repository URL
+- `"nexus"` - Nexus Mods mod page URL
+- `"nexus-2"` - Secondary Nexus Mods mod page URL
