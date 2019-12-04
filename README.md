@@ -71,4 +71,4 @@ Object containing links where the module can be downloaded.  The following keys 
 
 - `"github"` - GitHub repository URL
 - `"nexus"` - Nexus Mods mod page URL
-- `"nexus-2"` - Secondary Nexus Mods mod page URL
+- `"nexus2"` - Secondary Nexus Mods mod page URL
