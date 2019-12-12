@@ -5,12 +5,10 @@ Registry for [zEdit](https://github.com/z-edit/zedit) themes and modules.  Users
 
 In order for an entry to be added to this registry it must fit the following criteria:
 
-1. Must have either a public GitHub repository or homepage.
+1. Must have either a public GitHub repository or Nexus Mods mod page.
 2. It must be a zEdit module or theme.
 
-If you want users to be able to install or determine the current version of your module/theme while browsing the registry it must have a public GitHub repository with at least one release.
-
-In addition, if your repository is for a zEdit module it must have a top-level `module.json` file for requirements to be resolved correctly.
+If you want users to be able to install your module directly from the registry it must have a public GitHub repository with at least one release.
 
 ## adding entries
 
