@@ -38,6 +38,7 @@
     "name": "Cell Encounter Level in Name",
     "author": "Hishy",
     "types": ["patcher"],
+    "games": ["TES5", "SSE"],
     "description": "A patcher that puts encounter zone levels into cell names.",
     "links": {
       "github": "https://github.com/z-edit/hishy-cell-encounter-level-in-name",
@@ -61,6 +62,7 @@
     "name": "Load Screen Remover",
     "author": "Qudix",
     "types": ["patcher"],
+    "games": ["TES5", "SSE"],
     "description": "A patcher which stops 3D objects and lore text from showing up during loading screens.  The lore text can be re-enabled through the patcher's settings.",
     "links": {
       "github": "https://github.com/Qudix/loadScreenRemover",
@@ -72,6 +74,7 @@
     "name": "Opposite Animation Disabler",
     "author": "Qudix",
     "types": ["patcher"],
+    "games": ["TES5", "SSE"],
     "description": "A patcher which disables the Use Opposite Animations flag on all NPCs, forcing them to use the correct animations for their gender.",
     "links": {
       "github": "https://github.com/Qudix/oppositeAnimationDisabler",
@@ -106,6 +109,7 @@
     "name": "Reproccer XML Converter",
     "author": "Mator",
     "types": ["tool"],
+    "games": ["TES5", "SSE"],
     "description": "Converts SkyRe Reproccer XML files to the JSON format used by Reproccer Reborn.",
     "links": {
       "github": "https://github.com/matortheeternal/zedit-reproccer-xml-converter"
