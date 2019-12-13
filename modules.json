@@ -112,11 +112,12 @@
     }
   },
   {
-    "id": "zedit-skyrim-keyword-helpers",
+    "id": "skyrimKeywordHelpers",
     "name": "Skyrim Keyword Helpers",
     "author": "Mator",
     "types": ["api"],
     "games": ["TES5", "SSE"],
+    "description": "A set of APIs for interacting with Skyrim keywords.",
     "links": {
       "github": "https://github.com/z-edit/zedit-skyrim-keyword-helpers"
     }
