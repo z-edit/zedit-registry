@@ -58,7 +58,7 @@
     }
   },
   {
-    "id": "loadScreenRemover",
+    "id": "qdxLoadScreenRemover",
     "name": "Load Screen Remover",
     "author": "Qudix",
     "types": ["patcher"],
@@ -70,7 +70,7 @@
     }
   },
   {
-    "id": "oppositeAnimationDisabler",
+    "id": "qdxOppositeAnimationDisabler",
     "name": "Opposite Animation Disabler",
     "author": "Qudix",
     "types": ["patcher"],
@@ -82,7 +82,7 @@
     }
   },
   {
-    "id": "dualSheathRedux",
+    "id": "qdxDualSheathRedux",
     "name": "Dual Sheath Redux Patcher",
     "author": "Qudix",
     "types": ["patcher"],
