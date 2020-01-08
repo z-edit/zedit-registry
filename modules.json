@@ -65,7 +65,7 @@
     "games": ["TES5", "SSE"],
     "description": "A patcher which stops 3D objects and lore text from showing up during loading screens.  The lore text can be re-enabled through the patcher's settings.",
     "links": {
-      "github": "https://github.com/Qudix/loadScreenRemover",
+      "github": "https://github.com/Qudix/qdxLoadScreenRemover",
       "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/18279"
     }
   },
@@ -77,7 +77,7 @@
     "games": ["TES5", "SSE"],
     "description": "A patcher which disables the Use Opposite Animations flag on all NPCs, forcing them to use the correct animations for their gender.",
     "links": {
-      "github": "https://github.com/Qudix/oppositeAnimationDisabler",
+      "github": "https://github.com/Qudix/qdxOppositeAnimationDisabler",
       "nexus": "https://www.nexusmods.com/skyrimspecialedition/mods/18281"
     }
   },
@@ -89,7 +89,7 @@
     "games": ["TES5", "SSE"],
     "description": "A patcher that makes it so sheathed left-hand weapons are visible.",
     "links": {
-      "github": "https://github.com/Qudix/dualSheathRedux"
+      "github": "https://github.com/Qudix/qdxDualSheathRedux"
     }
   },
   {
