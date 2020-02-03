@@ -93,6 +93,17 @@
     }
   },
   {
+    "id": "qdxEcotoneDualSheath",
+    "name": "Ecotone Dual Sheath",
+    "author": "Qudix",
+    "types": ["patcher"],
+    "games": ["SSE"],
+    "description": "A patcher that makes it so sheathed left-hand weapons and shields are visible. A port of Ecotone Dual Sheath's xEdit patcher to UPF.",
+    "links": {
+      "github": "https://github.com/Qudix/qdxEcotoneDualSheath"
+    }
+  },
+  {
     "id": "reproccerReborn",
     "name": "Reproccer Reborn",
     "author": "jdsmith2816",
